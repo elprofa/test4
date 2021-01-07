@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit elprofa <code>src/App.js</code> and save to reload.wedo
+          Edit elprofa je suis un ingenieur des travaux <code>src/App.js</code> and save to reload.wedo
         </p>
         <a
           className="App-link"
