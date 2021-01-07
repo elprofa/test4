@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Container from 'react-bootstrap/Container';
+
+import GreatHeader from './components/GreatHeader/GreatHeader';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit elprofa je suis un ingenieur des travaux <code>src/App.js</code> and save to reload.wedo
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <GreatHeader>
+     </GreatHeader>
+      <Container fluid>
+       
+      </Container>
     </div>
   );
 }
