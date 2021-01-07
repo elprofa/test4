@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import {Navbar} from 'react-bootstrap';
+import {Row} from 'react-bootstrap';
 
-export const TopHeaderStc = styled(Navbar)`
+export const TopHeaderStc = styled(Row)`
     position: relative;
     height: 53px;
     border-bottom: solid 1px #e0e4e9;
