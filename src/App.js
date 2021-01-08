@@ -1,19 +1,15 @@
 import './App.css';
-import Container from 'react-bootstrap/Container';
-
 import GreatHeader from './components/GreatHeader/GreatHeader';
-
+import ContainerTop from './components/ContainerTop/ContainerTop';
 
 function App() {
   return (
     <div className="App">
      <GreatHeader>
      </GreatHeader>
-      <Container fluid>
-       
-      </Container>
+      <ContainerTop />
     </div>
   );
-}
+} 
 
 export default App;
