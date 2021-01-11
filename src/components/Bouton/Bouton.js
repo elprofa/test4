@@ -1,9 +1,9 @@
 import { BoutonStc } from "./Bouton.stc";
 
 const Bouton = (props) => {
-const {text} = props;
+const {text,emplacement} = props;
     return (
-        <BoutonStc>
+        <BoutonStc className={emplacement}>
             {text}
         </BoutonStc>
     )

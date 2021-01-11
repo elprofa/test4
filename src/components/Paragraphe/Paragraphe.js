@@ -1,9 +1,9 @@
 import { ParagrapheStc } from "./Paragraphe.stc";
 
 const Paragraphe = (props) => {
-const {text} = props;
+const {text,emplacement} = props;
     return (
-        <ParagrapheStc>
+        <ParagrapheStc className={emplacement}>
             {text}
         </ParagrapheStc>
     )

@@ -1,26 +1,25 @@
 import { ContainerTopStc } from "./ContainerTop.stc";
 import Pictures from '../Pictures/Pictures';
+import Paragraphe from '../Paragraphe/Paragraphe';
 import Titre1 from '../Titre1/Titre1';
-import Bouton from '../Bouton/Bouton';
+import Section1 from '../Section1/Section1';
+import Section2 from '../Section2/Section2';
+import Section3 from '../Section3/Section3';
+import Section4 from '../Section4/Section4';
+import Section5 from '../Section5/Section5';
+import Section6 from '../Section6/Section6';
 import {Row,Col} from 'react-bootstrap';
 
-import pic1 from './pic1.jpg';
 
 function ContainerTop() {
     return (
         <ContainerTopStc>
-           <Row id="row-1">
-                <Col>
-                    <Titre1 text="Hair & bodycare
-                        goed voor je
-                        gezondheid, je
-                        huid en de planeet. " />
-                    <Bouton id="MyBtn" text="Ontdek onze productenk" />
-                </Col>
-                <Col>
-                    <Pictures lien={pic1} alt="picture1" id="pic1"/>
-                </Col>
-            </Row>
+            <Section1 />
+            <Section2 />
+            <Section3 />
+           <Section4 />
+           <Section5 />
+           <Section6 />
         </ContainerTopStc>
     )
 }

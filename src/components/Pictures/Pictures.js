@@ -1,9 +1,9 @@
 import { PictureStc } from "./Pictures.stc";
 
 const Menu = (props) => {
-const {lien,id} = props;
+const {lien,id,position} = props;
     return (
-        <PictureStc>
+        <PictureStc className={position}>
             <img src={lien} alt="Queen" id={id} />
         </PictureStc>
     )
