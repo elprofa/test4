@@ -17,8 +17,6 @@ import packaging_home from './Components/Img/packaging_home.jpg';
 import Ray from './Components/Img/Ray.PNG';
 
 
-
-
 class App extends Component{
   render() {
     return (
